@@ -14,3 +14,6 @@ Feature: Create Blog
     Then I should not see "My Shiny Weblog!"
     And I should see "Teh Blag"
 
+  Scenario: Add and edit blogging categories
+    Given I am on the categories page
+    Then I should see "Categories"
